@@ -1,0 +1,29 @@
+.purp-box {
+    width: 1520px;
+    height: 320px;
+    margin-top: 300px;
+    background-color: #540D6E;
+
+    .purp-events {
+        font-size: 35px;
+        padding-left: 30px;
+        padding-top: 48px;
+        font-family: GillSans;
+        color: #fff;
+    }
+    hr {
+        width: 392px;
+        margin-left: 30px;
+        color: #fff;
+    }
+}
+@media screen and (max-width: 800px) {
+    .purp-box {
+        height: 1100px;
+        width: 520px;
+
+        .purp-events{
+            padding-top: 68px;
+        }
+    }
+    }

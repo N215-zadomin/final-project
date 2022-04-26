@@ -1,0 +1,83 @@
+.black-line {
+
+    hr {
+        width: 980px;
+        z-index: 99;
+       color: #000;
+    }
+}
+
+.gall-two-head {
+    width: 980.5px;
+    height: 400.5px;
+    margin: 50.5px auto 0 auto;
+    object-fit: cover ;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: linear-gradient(
+       rgba(238, 67, 103, 0.5),
+       rgba(238, 67, 103, 0.5)
+     ),
+     url(../images/2.jpeg);
+}
+.gall-two-text {
+    font-size: 140px;
+    margin-top: -150px;
+    margin-left: 350px;
+    font-family: GillSans;
+    color:#EE4367;
+}
+
+.gall-dis-text {
+    display: flex;
+
+    .gall-flex {
+        margin-left: 40px;
+
+        .reg-text {
+            margin-left: 230px;
+            width: 490px;
+            height: 133px;
+            font-size: 16px;
+            font-weight: lighter;
+            font-style: italic;
+            font-family: GillSans;
+        }
+
+        .reg-texts {
+            width: 490px;
+            height: 133px;
+            font-size: 16px;
+            font-weight: lighter;
+            font-style: italic;
+            font-family: GillSans;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .gall-two-head {
+        width: 100%;
+    }
+
+    .gall-two-text {
+        margin-top: -320px;
+       margin-left: 30px;
+    }
+    .gall-dis-text {
+        flex-direction: column;
+
+        .gall-flex {
+
+            .reg-text {
+                margin-left: -20px;
+                padding-right: 40px;
+            }
+
+            .reg-texts {
+                margin-left: -20px;
+            }
+        }
+    }
+}

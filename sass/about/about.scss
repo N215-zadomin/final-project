@@ -1,0 +1,63 @@
+.black-line {
+
+    hr {
+        width: 980px;
+        z-index: 99;
+       color: #000;
+    }
+}
+.heading {
+    width : 979px;
+    height: 378px;
+    margin:30px auto 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(255, 209, 64, 0.5),
+        rgba(255, 209, 64, 0.5)
+      ),
+      url(../images/about.jpg);
+}
+
+.about-his {
+    margin-top: -25px;
+    margin-left: 270px;
+    font-size: 25px;
+    font-family: GillSans;
+}
+hr {
+    width: 229px;
+    margin-left: 270px;
+    background-color: #000;
+}
+
+.about-par {
+    margin-top: 36.5px;
+    margin-left: 275px;
+    margin-bottom: 95px;
+    width: 980px;
+    height: 96px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: GillSans;
+    color: #000;
+}
+// begin responsiveness
+@media only screen and (max-width: 800px) {
+    .heading {
+      width: 100%;
+      margin-top: 30px;
+    }
+      .about-his {
+       margin: 0 auto;
+      }
+      hr {
+margin-left: -20px;
+      }
+     .about-par {
+         margin:36.5px auto 95px auto;
+        width: 100%;
+    
+    }
+  }

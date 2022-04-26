@@ -1,0 +1,105 @@
+.banner {
+    width : 1280px;
+    height: 500px;
+    margin: -80px auto 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+        rgba(255, 209, 64, 0.5),
+        rgba(255, 209, 64, 0.5)
+      ),
+      url(../images/home-hero.jpg);
+  //   texts in banner
+  p {
+    margin-top: -69.5px;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    font-family: PTSerif;
+    color: #fff;
+  }
+
+  .bot-ban {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    font-weight: italic;
+    font-family: GillSans;
+    color: #EE4367;
+  }
+.par-ban {
+    margin-top: 123px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    font-weight: italic;
+    font-family: GillSans;
+    color: #fff;
+}
+
+.main-ban {
+  font-size: 15px;
+  max-width: 640px;
+  text-align: left;
+  margin: 677px auto 0 auto;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: GillSans;
+  color: #FFD140;
+}
+
+.client-name {
+  position: absolute;
+  margin-top: 820px;
+  margin-right: 570px;
+  font-size: 15px;
+  font-family: PTSerif;
+  color: #EE4367;
+}
+
+.name-quote {
+  position: absolute;
+  margin-top: 870px;
+  margin-left: -500px;
+  font-size: 10px;
+  font-family: PTSerif;
+  color: #A8A8A8;
+}
+  //   button for banner
+  .submitted {
+    width: 121.62px;
+    height: 40.04px;
+    margin-top: 300px;
+    font-size: 15px;
+    border: none;
+    font-family: GillSans;
+    color: #fff;
+    background-color: #EE4367;
+  }
+}
+
+// begin responsiveness 
+@media only screen and (max-width: 800px) {
+  .banner {
+    width: 100%;
+
+    .main-ban {
+      padding-left: 30px;
+      padding-right: 20px;
+    }
+    .client-name {
+      padding-top: 30px;
+      padding-left: 200px;
+    }
+
+    .name-quote {
+      padding-top: 50px;
+      padding-left: 235px;
+    }
+  }
+}
